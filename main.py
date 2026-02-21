@@ -34,5 +34,5 @@ def receive_data():
     return jsonify({"status": "success"}), 201  # 201 = Created
 
 
-if __name__ == '__main__':
-    app.run("0.0.0.0",9999,debug=True)
+if __name__ == "__main__":
+    app.run()
